@@ -219,3 +219,8 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+" Comment color
+hi Comment ctermfg=166
+
+"Set line numbers by default
+set number
